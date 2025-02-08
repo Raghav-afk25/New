@@ -1,21 +1,7 @@
-    import spotipy
-    from spotipy.oauth2 import SpotifyClientCredentials
-    import requests
-    import os
-    import time
-    import uuid
-    import logging
-    from dotenv import load_dotenv
-    import asyncio
-    import aiohttp
-    from io import BytesIO
-    import json
-    import subprocess
-    import ffmpeg
-    from pytgcalls import PyTgCalls
-    from pytgcalls.types import InputAudioStream
-    from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQualityAudio, LowQualityAudio
-    from pyrogram import Client
+    from pyrogram import Client, errors
+from pyrogram.enums import ChatMemberStatus, ParseMode
+
+import config
 
     load_dotenv()
 
