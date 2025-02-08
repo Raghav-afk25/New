@@ -23,7 +23,6 @@ speedtest-cli
 spotipy
 tgcrypto
 unidecode
-uvloop
 yt-dlp
-youtube-search
-youtube-search-python
+python-telegram-bot==20.3
+tgcalls==0.0.2
