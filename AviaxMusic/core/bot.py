@@ -1,6 +1,3 @@
-    import telegram
-    from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-    from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext, MessageHandler, filters
     import spotipy
     from spotipy.oauth2 import SpotifyClientCredentials
     import requests
